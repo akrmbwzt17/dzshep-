@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="ar">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DzCheb - المنتجات</title>
+
+    <style>
+
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f2f2f2; }
+
+        .product-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+
+        .product-card { width: 200px; padding: 15px; background-color: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 8px; text-align: center; }
+
+        .product-card h3 { margin: 10px 0; }
+
+        .product-card p { color: green; font-weight: bold; }
+
+        .product-card button { width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+
+        .product-card button:hover { background-color: #0056b3; }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1 style="text-align:center;">منتجات DzCheb</h1>
+
+<div class="product-container">
+
+    <div class="product-card">
+
+        <h3>منتج 1</h3>
+
+        <p>1500 دج</p>
+
+        <button>إضافة إلى السلة</button>
+
+    </div>
+
+    <div class="product-card">
+
+        <h3>منتج 2</h3>
+
+        <p>2000 دج</p>
+
+        <button>إضافة إلى السلة</button>
+
+    </div>
+
+    <div class="product-card">
+
+        <h3>منتج 3</h3>
+
+        <p>3000 دج</p>
+
+        <button>إضافة إلى السلة</button>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
